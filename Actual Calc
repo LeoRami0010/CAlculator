@@ -16,25 +16,25 @@ public class Calculator {
 			choice = scan.next().charAt(0);
 			switch(choice)
 			{
-		case '1' : System.out.print("Enter Two Numbers : ");
+		case '1' : System.out.print("Enter Two Numbers : ");// For Addition
 			a = scan.nextFloat();
 			b = scan.nextFloat();
 			res = a + b;
 			System.out.print("Result = " + res);
 			break;
-		case '2' : System.out.print("Enter Two Numbers : ");
+		case '2' : System.out.print("Enter Two Numbers : ");// For Subtraction
 			a = scan.nextFloat();
 			b = scan.nextFloat();
 			res = a - b;
 			System.out.print("Result = " + res);
 			break;
-		case '3' : System.out.print("Enter Two Numbers : ");
+		case '3' : System.out.print("Enter Two Numbers : ");// For Multiplication
 			a = scan.nextFloat();
 			b = scan.nextFloat();
 			res = a * b;
 			System.out.print("result = " + res);
 			break;
-		case '4' : System.out.print("Enter Two Numbers : ");
+		case '4' : System.out.print("Enter Two Numbers : ");// For Division
 			a = scan.nextFloat();
 			b = scan.nextFloat();
 			res = a / b;
@@ -42,7 +42,7 @@ public class Calculator {
 			break;
 		case '5' : System.exit(0);
 			break;
-		default : System.out.print("Wrong Choice?");
+		default : System.out.print("Wrong Choice?");// Default Case for Wrong Inputs
 			break;
 			}
 			System.out.print("\n--------------------\n");
